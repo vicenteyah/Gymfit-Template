@@ -1,0 +1,27 @@
+footer{
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid var(--quaternaryColor);
+    text-align: center;
+}
+
+
+.networks-foot i{
+    color: var(--secondaryColor);
+    font-size: 15px;
+}
+
+.arrow {
+    position: fixed;
+    background-color: var(--secondaryColor);
+    padding: 10px 10px;
+    bottom: 100px;
+    right: 280px;
+}
+
+.arrow i{
+    font-size: 15px;
+    color: white;
+}
